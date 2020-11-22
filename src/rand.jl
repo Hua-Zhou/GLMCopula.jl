@@ -6,7 +6,7 @@ export ContinuousUnivariateCopula
     ContinuousUnivariateCopula(d, c0, c1, c2)
 
 The distribution with density `c * f(x) * (c0 + c1 * x + c2 * x^2)`, where `f` 
-is the density of distribution `d` and `c` is the normalizing constant.
+is the density of the base distribution `d` and `c` is the normalizing constant.
 """
 struct ContinuousUnivariateCopula{
     DistT <: ContinuousUnivariateDistribution, 
