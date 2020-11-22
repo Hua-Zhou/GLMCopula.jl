@@ -232,5 +232,6 @@ end
 
 include("gaussian_vc.jl")
 include("gaussian_lmm.jl")
+include("rand.jl")
 
 end#module
